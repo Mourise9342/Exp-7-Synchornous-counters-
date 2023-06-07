@@ -51,11 +51,44 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Mourise jane
+RegisterNumber: 212222230085 
 */
+
+###UP COUNTER
+module UC(input clk,input reset,output[0:3]counter);
+reg[0:3]counter_up;
+always@(posedge clk or posedge reset)
+begin
+if (reset)
+counter_up<=4'd0;
+else 
+counter_up<=counter_up+4'd1;
+end
+assign counter=counter_up;
+endmodule
+```
+###DOWN COUNTER
+
+##Program
+module ex06(input clk,input reset,output[0:3]counter);
+reg[0:3]counter_down;
+always@(posedge clk or posedge reset)
+begin
+if (reset)
+counter_down<=4'd0;
+else 
+counter_down<=counter_down-4'd1;
+end
+assign counter=counter_down;
+endmodule
+```
+
+
+
 
 
 
@@ -64,6 +97,7 @@ RegisterNumber:
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+![ss up](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/4b724270-bf6a-4087-a29a-a4539543f0ed)
 
 
 
