@@ -85,21 +85,14 @@ counter_down<=counter_down-4'd1;
 end
 assign counter=counter_down;
 endmodule
-```
-
-
-
-
-
-
-
-
-
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
-![ss up](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/4b724270-bf6a-4087-a29a-a4539543f0ed)
+###UP CPUNTER
 
+![ss up](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/4df6d27e-a473-415b-8786-09dd5f3a1bd6)
 
+###DOWN COUNTER
+![Ss down](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/f10ce18f-4259-4d16-8c41-45713dc08a08)
 
 
 
@@ -107,16 +100,39 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+###UP COUNTER
+With rest =0
+![Screenshot175](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/d2b94138-82ca-4c23-8358-686177294591)
 
 
+With rest =1
+![Ss166](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/9d0bf407-4b99-42b6-ac52-9de7f1197d7c)
+
+###DOWN COUNTER
+With rest =0
+![dtruth1](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/c52de05f-b8ab-4272-9e05-e3f0f870bde5)
+
+
+With rest =1
+![dtruth2](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/f90b0ce1-0275-4320-b164-3c1817c9d86e)
+[6.2.pdf](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/files/11675074/6.2.pdf)
+[6.1 mod.pdf](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/files/11675076/6.1.mod.pdf)
 
 
 
 ### TRUTH TABLE 
 
+###UP COUNTER
+![upct](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/6bcab65b-13d1-48fd-b8a4-c38f36e9af17)
+
+
+
+###DOWN COUNTER
+![dct](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/83aee760-5c7f-482b-a708-7f6f58954133)
 
 
 
 
 
 ### RESULTS 
+Hence the Four bit Up counter and Down counter is implemented successfully and its functionality is validated.
