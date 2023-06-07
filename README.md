@@ -70,7 +70,7 @@ counter_up<=counter_up+4'd1;
 end
 assign counter=counter_up;
 endmodule
-```
+
 ###DOWN COUNTER
 
 ##Program
@@ -85,7 +85,8 @@ counter_down<=counter_down-4'd1;
 end
 assign counter=counter_down;
 endmodule
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### RTL LOGIC UP COUNTER AND DOWN COUNTER 
+```
 
 ###UP CPUNTER
 
@@ -109,7 +110,8 @@ With rest =1
 ![Ss166](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/9d0bf407-4b99-42b6-ac52-9de7f1197d7c)
 
 ###DOWN COUNTER
-With rest =0
+
+ With rest =0
 ![dtruth1](https://github.com/Mourise9342/Exp-7-Synchornous-counters-/assets/120081893/c52de05f-b8ab-4272-9e05-e3f0f870bde5)
 
 
